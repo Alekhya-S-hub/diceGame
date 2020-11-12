@@ -1,0 +1,48 @@
+.container{
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.player{
+display: inline-block;
+width: 30%;
+margin: auto;
+}
+
+body{
+  margin: 0;
+}
+
+h1{
+  font-family: cursive;
+  font-size: 5rem;
+  color: #ff5046;
+}
+
+p{
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+.btn1, .btn2{
+  font-family: cursive;
+  border-radius: 7%;
+  font-size: 1.5rem;
+  color: #ff5046;
+  background-color: #fff;
+  padding: 1% 1%;
+  margin-top: 5%;
+  text-decoration: none;
+}
+
+.btn1:hover, .btn2:hover{
+  background-color: #b4b4b4;
+  color:#ff4546;
+  cursor: pointer;
+}
+
+
+.win{
+  background-color: green;
+}
